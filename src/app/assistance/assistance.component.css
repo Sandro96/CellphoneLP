@@ -1,0 +1,30 @@
+.assistance__container__title{
+    margin: 50px 0px;
+}
+
+.assistance__container__wrapper{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.assistance__container__wrapper__select{
+    width: 50%;
+    height: 75px;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+}
+@media(max-width:700px){
+    .assistance__container__wrapper__select{
+        width: 100%;
+    }
+}
+
+.assistance__container__wrapper__select__input__text{
+    font-size: 22px;
+    position: relative;
+    top: 25px;
+}
+
+:hover.assistance__container__wrapper__select__input{
+    cursor: pointer;
+}

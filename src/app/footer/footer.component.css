@@ -1,0 +1,77 @@
+.footer{
+    background-color: #B71C1C;
+}
+
+.footer__container{
+    padding: 25px 0;
+    text-align: center;
+}
+
+
+hr{
+    border: solid 1px #D32F2F;
+}
+
+.footer__container__legal-text{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer__container__wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer__container__wrapper__tyc{
+    width: 150px;
+    height: 50px;
+    border: solid 1px #2E4053;
+    text-align: center;
+    cursor: pointer;
+    background-color: #283747;
+    color: #ffffff;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media(max-width:380px){
+    .footer__container__wrapper__tyc{
+        width: 200px;
+    }
+}
+
+:hover.footer__container__wrapper__tyc{
+    background-color: #2E4053;
+}
+
+.footer__container__wrapper__tyc__button{
+    position: relative;
+    top: 25%;
+    font-size: 15px;
+}
+.modal-button{
+    width: 150px;
+    height: 50px;
+    border: solid 1px #2E4053;
+    text-align: center;
+    cursor: pointer;
+    background-color: #283747;
+    color: #ffffff;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+:hover.modal-button{
+    background-color: #2E4053;
+}
+.modal-button-bttn{
+    position: relative;
+    top: 25%;
+    font-size: 22px;
+}

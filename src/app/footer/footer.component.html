@@ -1,0 +1,38 @@
+<footer class="footer">
+    <div class="footer__container container">
+      <span class="footer__container__legal-text">
+            © Copyright 2020 / Sandro Ramirez. 
+        <hr>
+      </span>
+      <ng-template #contenido let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title">Terms and conditions</h4>
+        </div> 
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis urna at metus feugiat, eget ornare sem volutpat. Aliquam at sem porttitor, tincidunt sem non, rutrum justo. Proin rhoncus odio ligula, a cursus erat euismod ut. Aenean at arcu ut mauris imperdiet tristique. Donec finibus lacus tortor, vel condimentum est convallis id. Praesent et dui ipsum. Sed sit amet faucibus turpis, nec aliquet odio. Etiam eu neque efficitur, dictum mi id, commodo nisl. Donec non maximus dui, sollicitudin viverra neque. Nullam ac sapien non est imperdiet placerat vel eget justo.
+          Suspendisse vitae eros imperdiet, vulputate mauris ut, mattis nulla. Curabitur in nunc ac eros commodo porttitor. Phasellus efficitur magna ac suscipit ornare. Integer libero est, porttitor et cursus in, gravida sit amet velit. Donec laoreet consequat turpis non ornare. Pellentesque nec augue suscipit, semper ex et, scelerisque tortor. Nam blandit lacus pharetra dolor egestas ornare in vitae tellus.
+          Etiam eget augue quis leo feugiat facilisis eget eu sapien. Praesent leo neque, efficitur non mauris eget, euismod laoreet velit. Aliquam vel sagittis felis. Quisque sollicitudin ligula lobortis nulla condimentum, dapibus iaculis dolor malesuada. Nullam scelerisque dignissim tellus sit amet aliquam. Nullam tempor luctus mauris vel venenatis. Curabitur placerat ante urna, non iaculis lorem efficitur id.
+          Cras nulla nibh, malesuada vitae lacus ac, viverra auctor tortor. Nullam id sodales eros. Nunc rutrum magna nec metus accumsan, vel dapibus erat faucibus. Nam posuere ipsum arcu, in pellentesque mauris facilisis at. Sed varius malesuada sem eu hendrerit. Donec rhoncus facilisis libero, ac rhoncus tellus efficitur eu. Fusce cursus nunc eu sapien ultricies semper. Vestibulum consectetur nunc sit amet molestie accumsan. Fusce pulvinar mi a tempus dapibus. Aenean id augue sollicitudin, iaculis nisi eu, vestibulum sem. Cras a fringilla metus, quis maximus libero.
+          Mauris et nunc volutpat, tristique tellus a, auctor orci. Curabitur vel lorem sed felis aliquam fermentum. Quisque id euismod risus. Praesent pulvinar metus eget elit ultricies, a vulputate metus sagittis. Phasellus a elit tristique, blandit mauris at, aliquet nisi. Quisque volutpat dapibus nulla at maximus. Donec a ipsum et elit luctus elementum vitae et metus. Ut facilisis neque nec scelerisque rhoncus.
+        </div>
+        <div class="modal-footer">
+          <div class="modal-button" (click)="modal.close()">
+            <h3 class="modal-button-bttn">
+              Close
+            </h3>
+          </div>
+        </div>
+      </ng-template>
+      <div class="footer__container__wrapper">
+        <div class="footer__container__wrapper__logo">
+        </div>
+        <div class="footer__container__wrapper__tyc" (click)="openModal(contenido)">
+          <h3 class="footer__container__wrapper__tyc__button">
+            Terms and conditions
+          </h3>
+        </div>
+        <div class="footer__container__wrapper__logo">
+        </div>
+      </div>
+    </div>
+  </footer>

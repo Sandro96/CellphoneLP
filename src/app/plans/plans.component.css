@@ -1,0 +1,88 @@
+.plans{
+    background-color: #F2F4F4;
+    height: 600px;
+}
+
+.plans__container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:400px){
+    .plans{
+        margin: 20px 0;
+    }
+}
+
+
+.plans__container__left-side{
+    width: 612px;
+}
+
+.plans__container__left-side__title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.plans__container__left-side__wrapper{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plans__container__left-side__wrapper__select{
+    width: 400px;
+    height: 60px;
+    border: solid 1px #999999;
+    border-radius: 4px;
+    cursor: pointer;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media(max-width:700px){
+    .plans__container__left-side__wrapper__select{
+        width: -webkit-fill-available;
+    }
+}
+
+.plans__container__left-side__wrapper__select__content{
+    font-size: 22px;
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+
+.plans__container__left-side__wrapper__bttn{
+    width: 150px;
+    height: 50px;
+    border: solid 1px #2E4053;
+    text-align: center;
+    cursor: pointer;
+    background-color: #283747;
+    color: #ffffff;
+}
+
+.plans__container__left-side__wrapper__bttn__button{
+    position: relative;
+    top: 25%;
+    font-size: 22px;
+    -moz-user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.plans__container__rigth-side{
+    width: 50%;
+    height: 600px;
+    background-image: url(../../assets/device.jpg);
+    background-size: cover;
+}
+@media(max-width:900px){
+    .plans__container__rigth-side{
+        display: none;
+    }
+}

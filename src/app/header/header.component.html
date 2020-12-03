@@ -1,0 +1,29 @@
+<header class="header">
+  <div class="header__container container">
+    <div class="header__container__text">
+      <h1 class="header__container__text__title">Join now to the <br>new experience</h1>
+      <span class="header__container__text__subtitle">
+        Lorem ipsum dolor sit amet,<br>
+        consectetur adipiscing elit.<br>
+        Proin eget interdum ipsum.
+      </span>
+    </div>
+    <ng-template #contenido let-modal>
+      <div class="modal-body">
+        Register successful!
+      </div>
+      <div class="modal-footer">
+        <div class="header__container__bttn" (click)="modal.close()">
+          <h1 class="header__container__bttn__button">
+            Close
+          </h1>
+        </div>
+      </div>
+    </ng-template>
+    <div class="header__container__bttn" (click)="openModal(contenido)">
+      <h3 class="header__container__bttn__button">
+        Join now
+      </h3>
+    </div>
+  </div>
+</header>
